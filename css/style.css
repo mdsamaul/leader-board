@@ -259,7 +259,7 @@ nav {
     width: 100%;
     height: 65px;
     background-color: red;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
   .logo img {
@@ -268,25 +268,29 @@ nav {
     padding: 0 0 0 10px;
   }
   .idea-logo-text {
-    padding: 0 5px;
+    padding: 0 1vw;
     margin: 0;
   }
   .idea-logo-text h1 {
     color: #ffe4e8;
-    font-size: 5vh;
+    font-size: 4vw;
+    padding: 2vh 0;
   }
   .menuber {
-    width: 100%;
     height: 65px;
     display: flex;
     align-items: center;
   }
   .menuber ul li a {
-    padding: 20px 20px;
+    padding: 5vw 3vw;
+    font-size: 3vw;
+    font-weight: normal;
+  }
+  .menu-right-site {
+    padding-left: 6vw;
   }
   /* banner section  */
   .banner {
-    width: 100%;
     height: 480;
     background-image: linear-gradient(
         to bottom,
@@ -299,6 +303,8 @@ nav {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    padding: 0;
+    margin: 0;
   }
 
   .heid {
@@ -309,15 +315,19 @@ nav {
 /* // Medium devices (tablets, less than 992px) */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .banner {
+    width: 100%;
     background-image: linear-gradient(
         to bottom,
         rgba(104, 232, 255, 0.178),
         rgb(125, 81, 247)
       ),
-      url(../images/blogs/leader-m.png);
+      url(../images/blogs/tab.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+  .heid {
+    display: none;
   }
 }
