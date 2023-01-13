@@ -1,0 +1,68 @@
+/* google font link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+/* universel stylesheet */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+/* header menuber style */
+
+nav {
+  width: 100%;
+  height: 94px;
+  background-color: #562eff;
+  display: flex;
+  justify-content: space-around;
+}
+.logo-left-site {
+  display: flex;
+  align-items: center;
+}
+.logo-left-site img {
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo-left-site:hover .idea-logo-text {
+  color: aqua;
+}
+
+.idea-logo-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.idea-logo-text:hover {
+  color: aqua;
+}
+/* navber style */
+.menuber ul {
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuber ul li {
+  list-style: none;
+}
+.menuber ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.7s;
+}
+.menuber ul li a:hover {
+  color: aqua;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
