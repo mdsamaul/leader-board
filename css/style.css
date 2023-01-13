@@ -291,7 +291,8 @@ nav {
   }
   /* banner section  */
   .banner {
-    height: 480;
+    width: auto;
+    height: 480px;
     background-image: linear-gradient(
         to bottom,
         rgba(104, 232, 255, 0.178),
@@ -306,6 +307,26 @@ nav {
     padding: 0;
     margin: 0;
   }
+  /* top player section  */
+  .container {
+    width: 95%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  .top-player {
+    width: 88%;
+  }
+  .title {
+    text-align: center;
+  }
+  .img-text {
+    flex-direction: column;
+  }
+  .items {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .heid {
     display: none;
@@ -315,13 +336,13 @@ nav {
 /* // Medium devices (tablets, less than 992px) */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .banner {
-    width: 100%;
+    /* width: 100%; */
     background-image: linear-gradient(
         to bottom,
         rgba(104, 232, 255, 0.178),
         rgb(125, 81, 247)
       ),
-      url(../images/blogs/tab.png);
+      url(../images/blogs/leader-m.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
